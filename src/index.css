@@ -1,0 +1,13 @@
+body {
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+#root {
+    margin-top: 4%;
+}

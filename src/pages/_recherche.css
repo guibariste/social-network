@@ -1,0 +1,22 @@
+#divRecherche{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+
+.userinlist {
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.userinlist:hover {
+    background-color: lightgray;
+}
+#divRechercheGroupe{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}

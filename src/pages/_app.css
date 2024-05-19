@@ -1,0 +1,262 @@
+html {
+    color: black;
+    background-color: white;
+}
+.AppHeader {
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+}
+
+.ListHeader {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.ListHeader > li {
+    position: relative;
+  }
+.ListHeaderConnexion {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.ButtonHeader {
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ButtonHeader:hover {
+    text-decoration: underline;
+    color: gold;
+    font-weight: bold;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    margin: 5px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+
+.AppMenu {
+    background-color: rgba(175, 175, 175, 0.56);
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    left: 30%;
+    padding: 10px;
+}
+
+#createpost {
+    background-color: rgba(175, 175, 175, 0.56);
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+#posts {
+    align-items: center;
+}
+
+.post {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(208, 207, 207, 0.546);
+    width: 40%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: sans-serif;
+}
+
+.AccueilMenu {
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    left: 30%;
+}
+
+.settings {
+    position: absolute;
+    top:15%;
+    width: 40%;
+    left: 30%;
+    background-color: #dddddd;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.activate {
+    background-color: green;
+}
+
+.desactivate {
+    background-color: red;
+}
+
+p {
+    cursor:default;
+}
+.GroupeOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #504e4e;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+  
+  .GroupeOptions li {
+    margin-bottom: 5px;
+  }
+  
+  .notification {
+    background-color: #504e4e;
+    color: white;
+    padding: 10px;
+    animation: appear 2s;
+  }
+
+  @keyframes appear {
+    0% {left: 110%;}
+    100% {right: 0%;}
+  }
+
+  .LoginError {
+    width: 15%;
+    position: absolute;
+    right:0%;
+    top: 10%;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  .emoji-picker {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .emoji-button {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    user-select: none;
+    max-width: fit-content;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .emoji-picker-list {
+    background-color: white;
+    position: absolute;
+    overflow: scroll;
+    top: -800%;
+    left: -100%;
+    width: 400%;
+    height: 800%;
+  }
+  
+  .emoji-item {
+    font-size: 20px;
+    padding: 10px;
+  }  
+  
+  .emoji-item:hover {
+    cursor: pointer;
+  }
+
+  select {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    user-select: none;
+  }
+
+#random-emoji:hover {
+  font-size: 18px;
+}
+
+.RegisterError {
+  color: red;
+}
+
+#rgstr {
+  display: none;
+}
+
+.comment {
+  background-color:#dddddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.y {
+  color: gold;
+}
+
+.right {
+  position: absolute;
+  right: 0%;
+  padding: 10px;
+}
+
+.left {
+  position: absolute;
+  left: 0%;
+  padding: 10px;
+}
+
+.followList {
+  text-align: left;
+  padding: 10px;
+  background-color: lightgray;
+  margin: 5px;
+  border: 1px solid slateblue ;
+  cursor: pointer;
+}
+
+.followList:hover{
+  border: 2px solid slateblue ;
+}

@@ -1,0 +1,36 @@
+.userProfil {
+  position: absolute;
+  top:15%;
+  width: 20%;
+  left: 40%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(185, 185, 185, 0.823);
+  padding: 1px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 2px gray;
+}
+
+.nameProfil {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow {
+  background-color: rgb(32, 32, 149);
+}
+
+
+#uavatar {
+  width: 100px;
+  height: 100px;
+}
+
+.ProfilInfo {
+  background-color: white;
+  cursor: pointer;
+}

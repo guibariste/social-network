@@ -1,0 +1,212 @@
+#demandesExt{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 20%;
+
+}
+
+#creerGroupe{
+    margin-top: 20%;
+ 
+}
+#invitAmis{
+    margin-left: 40%;
+ 
+}
+.groupe {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .groupe-info {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .groupe-info h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .groupe-info p {
+    margin: 10px 0;
+  }
+  
+  .groupe-info .bold {
+    font-weight: bold;
+  }
+  
+  .groupe-info .blue {
+    color: blue;
+  }
+  
+  .groupe-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 20px;
+  }
+  
+  .groupe-messages {
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow-y: scroll;
+  }
+
+  .groupe-messages div ul {
+    list-style-type: none;
+  }
+  
+  .message {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius :0%
+  }
+
+  .sent {
+    background-color: lightblue;
+  }
+
+  .contenu-message {
+    display: flex;
+    align-items: center;
+    }
+    
+    .message p {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .contenu-message img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    }
+    #createur{
+        color: #005dff;
+    }
+    .groupe-invites {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    overflow-y: scroll;
+    }
+    
+    .groupe-invites h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    }
+    
+    .groupe-invites ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .groupe-invites li {
+    margin-bottom: 5px;
+    }
+    
+    .groupe-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    }
+    
+    .groupe-input input {
+    flex-grow: 1;
+    border: none;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    }
+    
+    .groupe-input button {
+    background-color: #0077ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .groupe-input button:hover {
+    background-color: #005dff;
+    }
+    
+    /* Pour les écrans plus petits */
+    @media screen and (max-width: 768px) {
+    .groupe {
+    flex-direction: column;
+    }
+    
+    .groupe-content {
+    flex-direction: column;
+    }
+    
+    .groupe-invites {
+    margin-top: 20px;
+    width: 100%;
+    }}
+    #demandeGroupe{
+        margin-top: 20%;
+    }
+    #noGroupe{
+        margin-top: 20%;
+    }
+
+    .groupeMessageList {
+      max-height: 600px;
+      overflow-y: scroll;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .eventCreatorDiv {
+      background-color: #f9f9f9;
+      padding: 20px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 20px;
+      font-family: Helvetica;
+    }
+
+    .eventLi {
+      background-color: #f9f9f9;
+      padding: 20px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 20px;
+      font-family: Helvetica;
+    }
+
+    .red {
+      color: red;
+    }
+    #groupeEncours{
+        margin-top: 100px;
+    }
+    #boutInvitExist{
+      margin-left: 1200px;
+    }
