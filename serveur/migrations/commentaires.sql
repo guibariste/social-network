@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS commentaires (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    postid INTEGER NOT NULL,
+    message TEXT NOT NULL,
+    sender INTEGER NOT NULL,
+    date TEXT NOT NULL,
+    FOREIGN KEY(postid) REFERENCES posts(id)
+);

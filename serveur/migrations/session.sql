@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS sessions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+  
+    nom TEXT NOT NULL,
+    session_id TEXT NOT NULL,
+    date TEXT NOT NULL
+   
+);

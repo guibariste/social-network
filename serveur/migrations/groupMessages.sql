@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS groupMessages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sender TEXT NOT NULL,
+    senderID TEXT NOT NULL,
+    groupID TEXT NOT NULL,
+    content TEXT NOT NULL,
+    date TEXT NOT NULL
+);

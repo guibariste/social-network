@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    message TEXT NOT NULL,
+    image TEXT NOT NULL,
+    visibility INTEGER NOT NULL DEFAULT 0
+);

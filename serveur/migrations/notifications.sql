@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS notifications (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    type TEXT NOT NULL,
+    sender TEXT NOT NULL,
+    receiver TEXT NOT NULL,
+    groupid INTEGER NOT NULL DEFAULT 0,
+    date TEXT NOT NULL
+);
